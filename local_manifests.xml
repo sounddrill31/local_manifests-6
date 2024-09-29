@@ -4,7 +4,7 @@
 
 
    <!-- Remotes -->
-	<remote fetch="https://github.com/" name="github" />
+	<!remote fetch="https://github.com/" name="github" />
 	
   <!-- Device trees -->
 	<project name="keosh1/android_device_xiaomi_mondrian" path="device/xiaomi/mondrian" remote="github" revision="lineage-21" />
