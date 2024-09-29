@@ -2,10 +2,6 @@
 <manifest>
 <!-- Generated using keosh1/actions_generate_local_manifests_mondrian -->
 
-
-   <!-- Remotes -->
-	<!remote fetch="https://github.com/" name="github" />
-	
   <!-- Device trees -->
 	<project name="keosh1/android_device_xiaomi_mondrian" path="device/xiaomi/mondrian" remote="github" revision="lineage-21" />
 
