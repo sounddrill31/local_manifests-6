@@ -14,7 +14,8 @@
 
   <!-- Vendor -->
 	<project name="cupid-development/proprietary_vendor_xiaomi_mondrian" path="vendor/xiaomi/mondrian" remote="mainlining" revision="lineage-21" />
-	<project name="cupid-development/proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/mondrian" remote="mainlining" revision="lineage-21" />
+	<project name="cupid-development/proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/mondrian/common" remote="mainlining" revision="lineage-21" />
+
 <!-- Xiaomi common hardware -->
 	<project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" />
 
