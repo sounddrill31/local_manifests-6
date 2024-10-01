@@ -18,5 +18,8 @@
 
 <!-- Xiaomi common hardware -->
 	<project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" />
+	  <!-- Sepolicy -->
+
+	<project name="mondrian-next/device_xiaomi_sepolicy" path="device/xiaomi/sepolicy" remote="github" revision="lineage-21" />
 
 </manifest>
