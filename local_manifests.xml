@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Generated using keosh1/actions_generate_local_manifests_mondrian -->
-	<!-- RisingOS Dollby Vision-->
-<!remove-project name="hardware_qcom-caf_sm8450_display"/>
- <!-- Remotes -->
+	 <!-- Remotes -->
   <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-21" />
 <remote fetch="https://git.lhnlm.fr" name="lhnlm" revision="14.0" />
 	 
