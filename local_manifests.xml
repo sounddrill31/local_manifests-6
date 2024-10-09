@@ -12,7 +12,8 @@
   <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" clone-depth="1" />
  <!-- MIUI Leica Camera -->
   <project name="mondrian/android_vendor_xiaomi_miuicamera" path="vendor/xiaomi/camera" remote="lhnlm" />
-
+	 <!-- RisingOS Dollby Vision-->
+<remove-project name="hardware/qcom-caf/sm8450/display"/>
 	 <!-- Dollby Vision-->
 <project name="keosh1/hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="github" revision="14" clone-depth="1" />
 	
