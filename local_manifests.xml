@@ -4,8 +4,7 @@
  <!-- Remotes -->
   <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-21" />
 <remote fetch="https://git.lhnlm.fr" name="lhnlm" revision="14.0" />
-	 <!-- RisingOS Dollby Vision-->
-<remove-project name="Rising14/hardware/qcom-caf/sm8450/display"/>
+	 
 	<!-- Device trees -->
   <project name="keosh1/android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github" revision="lineage-21" clone-depth="1" />
 	<project name="keosh1/android_device_xiaomi_mondrian" path="device/xiaomi/mondrian" remote="github" revision="lineage-21" clone-depth="1" />
@@ -17,7 +16,8 @@
 	
 	 <!-- Dollby Vision-->
 <project name="keosh1/hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="github" revision="14" clone-depth="1" />
-	
+	<!-- RisingOS Dollby Vision-->
+<remove-project name="Rising14/hardware/qcom-caf/sm8450/display"/>
   <!-- Kernel -->
   <project name="cupid-development/android_kernel_xiaomi_sm8450" path="kernel/xiaomi/sm8450" remote="github" revision="lineage-21" clone-depth="1" />
   <project name="cupid-development/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="github" revision="lineage-21" clone-depth="1" />
